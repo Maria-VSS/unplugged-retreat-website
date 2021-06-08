@@ -98,6 +98,11 @@ footer{
 
 } 
 
+header{
+  padding: 15px 0;
+
+}
+
 header.content-wrapper{
   display: flex;
   justify-content: center;
@@ -106,17 +111,34 @@ header.content-wrapper{
 
 }
 
+.content-wrapper{
+  width: 80%;
+
+}
+
+.header-divider{
+  width: 50%;
+}
+
 header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 
 }
 
 header nav ul{
   display: flex;
   justify-content: space-around;
+  width: 45%;
+}
+
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
+
 }
 
 footer .social-icons{
@@ -169,6 +191,10 @@ aside{
 
 }
 
+.features article{
+  width: 50%;
+}
+
 /* Reviews */
 
 .reviews{
@@ -178,6 +204,9 @@ aside{
 
 }
 
+.reviews h3{
+  width: 50%;
+}
 /*---------- Mobile Styles - About Page ----------*/
 
 .mission{
