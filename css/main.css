@@ -103,16 +103,17 @@ header{
 
 }
 
-header.content-wrapper{
+header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  flex-direction: column;
 
 }
 
 .content-wrapper{
-  width: 80%;
+  width: 90%;
 
 }
 
@@ -192,7 +193,7 @@ aside{
 }
 
 .features article{
-  width: 50%;
+  width: 55%;
 }
 
 /* Reviews */
