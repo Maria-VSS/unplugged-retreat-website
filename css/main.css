@@ -496,6 +496,9 @@ footer .contact{
 
 footer .copyright{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -545,8 +548,62 @@ footer .copyright{
 
 }
 
+
 @media only screen and (min-width: 1200px){
+
   /*Desktop styles here*/
+
+  .content-wrapper{
+    width: 960px;
+
+  }
+
+  /* Hero */
+
+  .hero-area h1{
+    width: 770px;
+
+  }
+
+  /* Aside */
+
+  aside .content-wrapper{
+    justify-content: space-between;
+
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form{
+    width: 50%;
+
+  }
+
+
+  /* Features */
+
+  .features h2{
+    width: 85%;
+  }
+
+.features article{
+  flex-basis: 33%;
+
+}
+
+.features .features-item-description{
+  width: 75%;
+
+}
+
+/* Reviews */
+
+.reviews article div{
+  width: 95%;
+}
+
+/*---------- About Page ----------*/
+
+
 
 }
 /* ==========================================================================
