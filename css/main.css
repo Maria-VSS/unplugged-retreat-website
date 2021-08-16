@@ -94,11 +94,20 @@ html{
 
 }
 
-body{
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+}
+
+img {
+  width: 100%;
+
+}
+
+figure {
+  margin: 0;
 
 }
 
@@ -175,7 +184,13 @@ header{
   padding: 15px 0;
 
 }
-
+header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 header .content-wrapper{
   display: flex;
   justify-content: center;
@@ -263,6 +278,8 @@ footer .copyright{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/top-hero-img.jpg') center no-repeat #333;
+  background-size: cover;
 
 }
 
@@ -321,6 +338,8 @@ input[type=button]{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-background-img.jpg') center no-repeat #333;
+  background-size: cover;
 
 }
 
