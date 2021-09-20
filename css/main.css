@@ -258,6 +258,13 @@ footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 1.125em;
+
+}
 
 }
 
@@ -695,7 +702,7 @@ footer .content-wrapper{
 
 }
 
-footer.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -717,6 +724,10 @@ footer h4{
 footer p{
   line-height: 1.285;
 
+}
+footer .social-icons{
+  width: 12.625em;
+  justify-content: space-between;
 }
 
 footer .copyright{
