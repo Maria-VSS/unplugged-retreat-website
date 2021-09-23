@@ -153,7 +153,7 @@ address{
 
 .content-wrapper{
   width: 90%;
-  margin: 50px 0;
+  margin: 0px 0 50px;
 
 }
 
@@ -206,7 +206,7 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 90%;
   font-size: 1.125em;
   font-weight: normal;
   text-transform: uppercase;
@@ -315,6 +315,7 @@ input[type=text]{
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  color: #c6c7ce;
 
 }
  
@@ -332,6 +333,7 @@ input[type=button]{
   text-transform: uppercase;
 
 }
+
 
 /* Features */
 
