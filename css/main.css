@@ -222,6 +222,7 @@ header nav ul{
 
 header nav ul li{
   font-size: 1.125em;
+  font-weight: 500;
 
 }
 
@@ -308,6 +309,7 @@ aside .form{
   margin-top: 30px;
 
 }
+
  
 input[type=text]{
   box-sizing: border-box;
@@ -325,7 +327,7 @@ input[type=button]{
   margin-top: 20px;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.125em;
   color: #e2e3ed;
   border: none;
@@ -349,6 +351,7 @@ input[type=button]{
 
 .features h2{
   margin-bottom: 60px;
+  margin-top: 56px;
 }
 
 .features article{
